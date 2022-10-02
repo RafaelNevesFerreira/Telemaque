@@ -47,7 +47,7 @@ class ClientsController extends Controller
         //les extensions valides se trouvent dans l'attribut $valid_extension
         //si l'extension demandée par l'utilisateur ne correspond à aucune des extensions présentes dans notre tableau,
         //nous redirigeons le client avec le message d'erreur
-        if (!in_array($extension, $this->valid_extension)) {
+        if (!in_array(trim($extension), $this->valid_extension)) {
             return redirect()->back()->withErrors("L'extension que vous souhaitez n'est pas disponible actuellement");
         }
 
