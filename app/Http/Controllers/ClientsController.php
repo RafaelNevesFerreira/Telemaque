@@ -134,7 +134,7 @@ class ClientsController extends Controller
         }
 
         //nous téléchargeons le fichier avec les données des clients nés entre ces dates
-        return (new FastExcel($clients))->download("clients-" . date(now()) . ".xlsx", function ($user) {
+        return (new FastExcel($clients))->download("clients-" . date(now()) . ".csv", function ($user) {
             return [
                 'Nom' => $user->last_name,
                 'Prénom' => $user->first_name,
