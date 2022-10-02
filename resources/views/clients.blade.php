@@ -52,9 +52,6 @@
                                                         <a class="dropdown-item"
                                                             href="{{ route('download', 'csv') }}">Format
                                                             CSV</a>
-                                                        <a class="dropdown-item"
-                                                            href="{{ route('download', 'xlsx') }}">Format XLSX</a>
-
                                                         <a href="#" class="dropdown-item" data-bs-toggle="modal"
                                                             data-bs-target="#params_modal"> Champs à
                                                             Récupérer</a>
