@@ -45,6 +45,11 @@ La base est peuplée par une factory utilisant faker 50 000 users sont insérés
 Cette route permettra de télécharger un CSV contenant les clients correspondants à la requête précédente.
 
 
+<h3>Créer une méthode qui permet en fonction d'une entrée, de faire une réduction de lettres:</h3>
+
+<br>
+
+<h3>Créer une méthode qui qui permet en fonction d'une entrée, de décompresser une réduction de lettres:</h3>
 
 
 ### Conçu avec
